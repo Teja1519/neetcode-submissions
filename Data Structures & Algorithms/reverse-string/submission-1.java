@@ -1,0 +1,18 @@
+class Solution {
+    public void reverseString(char[] s) {
+       int i=0;
+       int j=s.length-1;
+      
+       while(i<j){
+            char temp;
+            temp=s[i];
+            s[i]=s[j];
+            s[j]=temp;
+            i++;
+            j--;
+       } 
+    //    for(int idx=0; idx<s.length; idx++){
+    //     System.out.println(s[idx]);
+    //    }  
+    }
+}
